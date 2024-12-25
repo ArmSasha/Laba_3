@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+
+
+.container {
+    padding: 20px;
+}
+
+body {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #282423;
+    color: #fff;
+    font-family: "Tiny5", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+header {
+    background: rgba(38,36,35,.9);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+nav {
+    background: rgba(38,36,35,.9);
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,.25);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    opacity: 80%;
+    width: 100%;
+    margin-top: -50px;
+    transition: all .4s ease-in-out;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+nav img{
+    max-width: 222px;
+    max-height: 39px;
+    float: left;
+}
+nav div{
+    margin-right: 220px;
+}
+nav:hover{
+    opacity: 100%;
+    font-size: 23px;
+}
+nav a:hover{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+footer {
+    background: rgba(38,36,35,.9);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    box-shadow: 4px 0px 4px 4px rgba(0, 0, 0, .25);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}

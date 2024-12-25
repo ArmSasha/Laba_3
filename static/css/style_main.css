@@ -1,0 +1,9 @@
+.image-text {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.image-text img {
+    max-width: 300px;
+    border-radius: 10px;
+}
